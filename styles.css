@@ -111,7 +111,7 @@ html {
 }
 
 .about img {
-  max-width: 450px;
+  max-width: 350px;
   border-radius: 8px;
 }
 
@@ -152,7 +152,7 @@ html {
 }
 
 .project-list img {
-  max-width: 22%;
+  max-width: 10%;
   border-radius: 8px;
   margin-right: 0.5%;
   margin-left: 0.5%;
