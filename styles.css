@@ -145,14 +145,20 @@ html {
 
 .project-list {
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.project-list a {
+  display: flex;
+
+  justify-content: center;
+}
+
 .project-list img {
-  max-width: 10%;
+  max-width: 30%;
   border-radius: 8px;
   margin-right: 0.5%;
   margin-left: 0.5%;
@@ -175,6 +181,11 @@ html {
   margin-top: 14px;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.action a {
+  text-decoration: none;
+  color: inherit; /* opcional: mantém a cor do botão */
 }
 
 .action:hover {
